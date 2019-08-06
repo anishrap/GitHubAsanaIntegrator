@@ -2,8 +2,8 @@ version: "2"
 
 services:
   github:
-    build: ./github
+    build: ./Github
     volumes:
-      - ./github/dist:/server/dist
+      - ./Github/dist:/server/dist
     ports: 
       - "4000:4000"
