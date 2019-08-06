@@ -1,0 +1,7 @@
+asana/node_modules/
+asana/dist/*
+
+github/node_modules/
+github/dist/*
+
+.DS_Store

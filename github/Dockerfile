@@ -1,0 +1,10 @@
+FROM node:8-slim
+
+WORKDIR /server
+COPY . /server
+
+RUN npm install
+EXPOSE 4000
+
+CMD ["tsc"]
+CMD ["npm", "start"]

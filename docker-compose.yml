@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  github:
+    build: ./github
+    volumes:
+      - ./github/dist:/server/dist
+    ports: 
+      - "4000:4000"
